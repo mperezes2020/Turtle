@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+hola/__init__.py
+hola.egg-info/PKG-INFO
+hola.egg-info/SOURCES.txt
+hola.egg-info/dependency_links.txt
+hola.egg-info/entry_points.txt
+hola.egg-info/requires.txt
+hola.egg-info/top_level.txt
+hola.egg-info/zip-safe
+resource/hola

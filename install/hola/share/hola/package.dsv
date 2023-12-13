@@ -1,0 +1,9 @@
+source;share/hola/hook/pythonpath.ps1
+source;share/hola/hook/pythonpath.dsv
+source;share/hola/hook/pythonpath.sh
+source;share/hola/hook/ament_prefix_path.ps1
+source;share/hola/hook/ament_prefix_path.dsv
+source;share/hola/hook/ament_prefix_path.sh
+source;../../build/hola/share/hola/hook/pythonpath_develop.ps1
+source;../../build/hola/share/hola/hook/pythonpath_develop.dsv
+source;../../build/hola/share/hola/hook/pythonpath_develop.sh

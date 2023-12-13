@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000469] (hola) JobQueued: {'identifier': 'hola', 'dependencies': OrderedDict()}
+[0.000831] (ros2_course) JobQueued: {'identifier': 'ros2_course', 'dependencies': OrderedDict()}
+[0.000873] (hola) JobStarted: {'identifier': 'hola'}
+[0.099451] (-) TimerEvent: {}
+[0.111255] (ros2_course) JobStarted: {'identifier': 'ros2_course'}
+[0.200205] (-) TimerEvent: {}
+[0.301456] (-) TimerEvent: {}
+[0.402309] (-) TimerEvent: {}
+[0.502909] (-) TimerEvent: {}
+[0.603769] (-) TimerEvent: {}
+[0.704615] (-) TimerEvent: {}
+[0.805436] (-) TimerEvent: {}
+[0.906914] (-) TimerEvent: {}
+[1.009685] (-) TimerEvent: {}
+[1.110908] (-) TimerEvent: {}
+[1.211645] (-) TimerEvent: {}
+[1.312644] (-) TimerEvent: {}
+[1.413372] (-) TimerEvent: {}
+[1.514287] (-) TimerEvent: {}
+[1.615125] (-) TimerEvent: {}
+[1.715794] (-) TimerEvent: {}
+[1.817583] (-) TimerEvent: {}
+[1.918184] (-) TimerEvent: {}
+[2.019224] (-) TimerEvent: {}
+[2.119965] (-) TimerEvent: {}
+[2.220417] (-) TimerEvent: {}
+[2.311845] (hola) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mperezes/ros2_ws/build/hola/build', '--no-deps', 'install_data'], 'cwd': '/home/mperezes/ros2_ws/build/hola', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es:en_US:en', 'USER': 'mperezes', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mperezes', 'OLDPWD': '/home/mperezes', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'SYSTEMD_EXEC_PID': '5765', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mperezes/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mperezes', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mperezes', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1483,unix/Ubuntu:/tmp/.ICE-unix/1483', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7cbd26c7_6bb9_4d5b_b589_de992012fbe5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.D6X6C2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.172', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mperezes/ros2_ws/install/ros2_course:/home/mperezes/ros2_ws/install/hola:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mperezes/ros2_ws/build/hola', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mperezes/ros2_ws/build/hola/prefix_override:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:/home/mperezes/ros2_ws/build/ros2_course:/home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages:/home/mperezes/ros2_ws/build/hola:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.320814] (-) TimerEvent: {}
+[2.324234] (ros2_course) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mperezes/ros2_ws/build/ros2_course/build', '--no-deps', 'install_data'], 'cwd': '/home/mperezes/ros2_ws/build/ros2_course', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es:en_US:en', 'USER': 'mperezes', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mperezes', 'OLDPWD': '/home/mperezes', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'SYSTEMD_EXEC_PID': '5765', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mperezes/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mperezes', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mperezes', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/1483,unix/Ubuntu:/tmp/.ICE-unix/1483', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7cbd26c7_6bb9_4d5b_b589_de992012fbe5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.D6X6C2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.172', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mperezes/ros2_ws/install/ros2_course:/home/mperezes/ros2_ws/install/hola:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mperezes/ros2_ws/build/ros2_course', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mperezes/ros2_ws/build/ros2_course/prefix_override:/home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages:/home/mperezes/ros2_ws/build/ros2_course:/home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages:/home/mperezes/ros2_ws/build/hola:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.421848] (-) TimerEvent: {}
+[2.527322] (-) TimerEvent: {}
+[2.628008] (-) TimerEvent: {}
+[2.700500] (hola) StdoutLine: {'line': b'running develop\n'}
+[2.700815] (hola) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.700978] (hola) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.702841] (hola) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.703092] (hola) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.728228] (-) TimerEvent: {}
+[2.731851] (ros2_course) StdoutLine: {'line': b'running develop\n'}
+[2.732485] (ros2_course) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.732680] (ros2_course) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.735018] (ros2_course) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.735242] (ros2_course) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.828370] (-) TimerEvent: {}
+[2.929549] (-) TimerEvent: {}
+[2.974139] (hola) StdoutLine: {'line': b'running egg_info\n'}
+[2.974469] (hola) StdoutLine: {'line': b'writing hola.egg-info/PKG-INFO\n'}
+[2.974749] (hola) StdoutLine: {'line': b'writing dependency_links to hola.egg-info/dependency_links.txt\n'}
+[2.974919] (hola) StdoutLine: {'line': b'writing entry points to hola.egg-info/entry_points.txt\n'}
+[2.975015] (hola) StdoutLine: {'line': b'writing requirements to hola.egg-info/requires.txt\n'}
+[2.975124] (hola) StdoutLine: {'line': b'writing top-level names to hola.egg-info/top_level.txt\n'}
+[2.977312] (hola) StdoutLine: {'line': b"reading manifest file 'hola.egg-info/SOURCES.txt'\n"}
+[2.978127] (hola) StdoutLine: {'line': b"writing manifest file 'hola.egg-info/SOURCES.txt'\n"}
+[2.980086] (hola) StdoutLine: {'line': b'running build_ext\n'}
+[2.980340] (hola) StdoutLine: {'line': b'Creating /home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages/hola.egg-link (link to .)\n'}
+[2.981758] (hola) StdoutLine: {'line': b'\n'}
+[2.982068] (hola) StdoutLine: {'line': b'Installed /home/mperezes/ros2_ws/build/hola\n'}
+[2.982212] (hola) StdoutLine: {'line': b'running install_data\n'}
+[2.989621] (ros2_course) StdoutLine: {'line': b'running egg_info\n'}
+[2.989854] (ros2_course) StdoutLine: {'line': b'writing ros2_course.egg-info/PKG-INFO\n'}
+[2.990444] (ros2_course) StdoutLine: {'line': b'writing dependency_links to ros2_course.egg-info/dependency_links.txt\n'}
+[2.990813] (ros2_course) StdoutLine: {'line': b'writing entry points to ros2_course.egg-info/entry_points.txt\n'}
+[2.990903] (ros2_course) StdoutLine: {'line': b'writing requirements to ros2_course.egg-info/requires.txt\n'}
+[2.990970] (ros2_course) StdoutLine: {'line': b'writing top-level names to ros2_course.egg-info/top_level.txt\n'}
+[2.992979] (ros2_course) StdoutLine: {'line': b"reading manifest file 'ros2_course.egg-info/SOURCES.txt'\n"}
+[2.994008] (ros2_course) StdoutLine: {'line': b"writing manifest file 'ros2_course.egg-info/SOURCES.txt'\n"}
+[2.995842] (ros2_course) StdoutLine: {'line': b'running build_ext\n'}
+[2.996130] (ros2_course) StdoutLine: {'line': b'Creating /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)\n'}
+[2.997250] (ros2_course) StdoutLine: {'line': b'Installing hello script to /home/mperezes/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[2.997511] (ros2_course) StdoutLine: {'line': b'Installing listener script to /home/mperezes/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[2.997642] (ros2_course) StdoutLine: {'line': b'Installing talker script to /home/mperezes/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[2.997842] (ros2_course) StdoutLine: {'line': b'\n'}
+[2.998008] (ros2_course) StdoutLine: {'line': b'Installed /home/mperezes/ros2_ws/build/ros2_course\n'}
+[2.998077] (ros2_course) StdoutLine: {'line': b'running install_data\n'}
+[3.030247] (-) TimerEvent: {}
+[3.036996] (hola) CommandEnded: {'returncode': 0}
+[3.130733] (-) TimerEvent: {}
+[3.154560] (hola) JobEnded: {'identifier': 'hola', 'rc': 0}
+[3.157518] (ros2_course) CommandEnded: {'returncode': 0}
+[3.231895] (-) TimerEvent: {}
+[3.275462] (ros2_course) JobEnded: {'identifier': 'ros2_course', 'rc': 0}
+[3.276969] (-) EventReactorShutdown: {}

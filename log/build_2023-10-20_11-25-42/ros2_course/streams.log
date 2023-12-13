@@ -1,0 +1,23 @@
+[1.502s] Invoking command in '/home/mperezes/ros2_ws/build/ros2_course': PYTHONPATH=/home/mperezes/ros2_ws/build/ros2_course/prefix_override:/home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mperezes/ros2_ws/build/ros2_course/build --no-deps install_data
+[1.833s] running develop
+[1.833s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.833s]   warnings.warn(
+[1.836s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.836s]   warnings.warn(
+[2.098s] running egg_info
+[2.099s] writing ros2_course.egg-info/PKG-INFO
+[2.099s] writing dependency_links to ros2_course.egg-info/dependency_links.txt
+[2.099s] writing entry points to ros2_course.egg-info/entry_points.txt
+[2.100s] writing requirements to ros2_course.egg-info/requires.txt
+[2.100s] writing top-level names to ros2_course.egg-info/top_level.txt
+[2.103s] reading manifest file 'ros2_course.egg-info/SOURCES.txt'
+[2.104s] writing manifest file 'ros2_course.egg-info/SOURCES.txt'
+[2.106s] running build_ext
+[2.107s] Creating /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)
+[2.108s] Installing hello script to /home/mperezes/ros2_ws/install/ros2_course/lib/ros2_course
+[2.108s] Installing listener script to /home/mperezes/ros2_ws/install/ros2_course/lib/ros2_course
+[2.108s] Installing talker script to /home/mperezes/ros2_ws/install/ros2_course/lib/ros2_course
+[2.109s] 
+[2.109s] Installed /home/mperezes/ros2_ws/build/ros2_course
+[2.109s] running install_data
+[2.277s] Invoked command in '/home/mperezes/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/mperezes/ros2_ws/build/ros2_course/prefix_override:/home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mperezes/ros2_ws/build/ros2_course/build --no-deps install_data

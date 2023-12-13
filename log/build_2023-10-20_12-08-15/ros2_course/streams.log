@@ -1,0 +1,45 @@
+[1.582s] Invoking command in '/home/mperezes/ros2_ws/build/ros2_course': PYTHONPATH=/home/mperezes/ros2_ws/build/ros2_course/prefix_override:/home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mperezes/ros2_ws/build/ros2_course/build
+[1.986s] running develop
+[1.987s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.987s]   warnings.warn(
+[1.990s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.990s]   warnings.warn(
+[2.224s] Removing /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)
+[2.290s] Invoked command in '/home/mperezes/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/mperezes/ros2_ws/build/ros2_course/prefix_override:/home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mperezes/ros2_ws/build/ros2_course/build
+[2.292s] Invoking command in '/home/mperezes/ros2_ws/src/ros2_course': PYTHONPATH=/home/mperezes/ros2_ws/build/ros2_course/prefix_override:/home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/mperezes/ros2_ws/build/ros2_course/build install --record /home/mperezes/ros2_ws/build/ros2_course/install.log --single-version-externally-managed
+[2.611s] running egg_info
+[2.612s] writing ../../build/ros2_course/ros2_course.egg-info/PKG-INFO
+[2.613s] writing dependency_links to ../../build/ros2_course/ros2_course.egg-info/dependency_links.txt
+[2.613s] writing entry points to ../../build/ros2_course/ros2_course.egg-info/entry_points.txt
+[2.613s] writing requirements to ../../build/ros2_course/ros2_course.egg-info/requires.txt
+[2.613s] writing top-level names to ../../build/ros2_course/ros2_course.egg-info/top_level.txt
+[2.616s] reading manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[2.618s] writing manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[2.619s] running build
+[2.619s] running build_py
+[2.619s] copying ros2_course/turtlesim_controller.py -> /home/mperezes/ros2_ws/build/ros2_course/build/lib/ros2_course
+[2.620s] running install
+[2.620s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.620s]   warnings.warn(
+[2.620s] running install_lib
+[2.621s] creating /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[2.622s] copying /home/mperezes/ros2_ws/build/ros2_course/build/lib/ros2_course/talker.py -> /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[2.622s] copying /home/mperezes/ros2_ws/build/ros2_course/build/lib/ros2_course/hello.py -> /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[2.622s] copying /home/mperezes/ros2_ws/build/ros2_course/build/lib/ros2_course/turtlesim_controller.py -> /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[2.622s] copying /home/mperezes/ros2_ws/build/ros2_course/build/lib/ros2_course/listener.py -> /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[2.622s] copying /home/mperezes/ros2_ws/build/ros2_course/build/lib/ros2_course/__init__.py -> /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[2.623s] byte-compiling /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/talker.py to talker.cpython-310.pyc
+[2.624s] byte-compiling /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/hello.py to hello.cpython-310.pyc
+[2.624s] byte-compiling /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/turtlesim_controller.py to turtlesim_controller.cpython-310.pyc
+[2.625s] byte-compiling /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/listener.py to listener.cpython-310.pyc
+[2.626s] byte-compiling /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/__init__.py to __init__.cpython-310.pyc
+[2.626s] running install_data
+[2.627s] running install_egg_info
+[2.629s] Copying ../../build/ros2_course/ros2_course.egg-info to /home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course-0.0.0-py3.10.egg-info
+[2.630s] running install_scripts
+[2.659s] Installing hello script to /home/mperezes/ros2_ws/install/ros2_course/lib/ros2_course
+[2.659s] Installing listener script to /home/mperezes/ros2_ws/install/ros2_course/lib/ros2_course
+[2.659s] Installing talker script to /home/mperezes/ros2_ws/install/ros2_course/lib/ros2_course
+[2.659s] Installing turtlesim_controller script to /home/mperezes/ros2_ws/install/ros2_course/lib/ros2_course
+[2.660s] writing list of installed files to '/home/mperezes/ros2_ws/build/ros2_course/install.log'
+[2.770s] Invoked command in '/home/mperezes/ros2_ws/src/ros2_course' returned '0': PYTHONPATH=/home/mperezes/ros2_ws/build/ros2_course/prefix_override:/home/mperezes/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/mperezes/ros2_ws/build/ros2_course/build install --record /home/mperezes/ros2_ws/build/ros2_course/install.log --single-version-externally-managed

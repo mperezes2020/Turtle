@@ -1,0 +1,27 @@
+[1.318s] Invoking command in '/home/mperezes/ros2_ws/build/hola': PYTHONPATH=/home/mperezes/ros2_ws/build/hola/prefix_override:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mperezes/ros2_ws/build/hola/build --no-deps install_data
+[1.624s] running develop
+[1.626s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.626s]   warnings.warn(
+[1.628s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.628s]   warnings.warn(
+[1.809s] running egg_info
+[1.809s] creating hola.egg-info
+[1.809s] writing hola.egg-info/PKG-INFO
+[1.810s] writing dependency_links to hola.egg-info/dependency_links.txt
+[1.810s] writing entry points to hola.egg-info/entry_points.txt
+[1.811s] writing requirements to hola.egg-info/requires.txt
+[1.811s] writing top-level names to hola.egg-info/top_level.txt
+[1.811s] writing manifest file 'hola.egg-info/SOURCES.txt'
+[1.813s] reading manifest file 'hola.egg-info/SOURCES.txt'
+[1.813s] writing manifest file 'hola.egg-info/SOURCES.txt'
+[1.815s] running build_ext
+[1.816s] Creating /home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages/hola.egg-link (link to .)
+[1.817s] 
+[1.817s] Installed /home/mperezes/ros2_ws/build/hola
+[1.817s] running install_data
+[1.817s] creating /home/mperezes/ros2_ws/install/hola/share/ament_index
+[1.817s] creating /home/mperezes/ros2_ws/install/hola/share/ament_index/resource_index
+[1.817s] creating /home/mperezes/ros2_ws/install/hola/share/ament_index/resource_index/packages
+[1.817s] copying resource/hola -> /home/mperezes/ros2_ws/install/hola/share/ament_index/resource_index/packages
+[1.818s] copying package.xml -> /home/mperezes/ros2_ws/install/hola/share/hola
+[1.879s] Invoked command in '/home/mperezes/ros2_ws/build/hola' returned '0': PYTHONPATH=/home/mperezes/ros2_ws/build/hola/prefix_override:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mperezes/ros2_ws/build/hola/build --no-deps install_data

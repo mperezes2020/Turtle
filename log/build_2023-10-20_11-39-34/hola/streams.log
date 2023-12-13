@@ -1,0 +1,32 @@
+[1.379s] Invoking command in '/home/mperezes/ros2_ws/build/hola': PYTHONPATH=/home/mperezes/ros2_ws/build/hola/prefix_override:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mperezes/ros2_ws/build/hola/build
+[1.691s] running develop
+[1.692s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.692s]   warnings.warn(
+[1.694s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.694s]   warnings.warn(
+[1.880s] Removing /home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages/hola.egg-link (link to .)
+[1.941s] Invoked command in '/home/mperezes/ros2_ws/build/hola' returned '0': PYTHONPATH=/home/mperezes/ros2_ws/build/hola/prefix_override:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mperezes/ros2_ws/build/hola/build
+[1.943s] Invoking command in '/home/mperezes/ros2_ws/src/hola': PYTHONPATH=/home/mperezes/ros2_ws/build/hola/prefix_override:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hola build --build-base /home/mperezes/ros2_ws/build/hola/build install --record /home/mperezes/ros2_ws/build/hola/install.log --single-version-externally-managed
+[2.229s] running egg_info
+[2.229s] writing ../../build/hola/hola.egg-info/PKG-INFO
+[2.230s] writing dependency_links to ../../build/hola/hola.egg-info/dependency_links.txt
+[2.230s] writing entry points to ../../build/hola/hola.egg-info/entry_points.txt
+[2.231s] writing requirements to ../../build/hola/hola.egg-info/requires.txt
+[2.231s] writing top-level names to ../../build/hola/hola.egg-info/top_level.txt
+[2.233s] reading manifest file '../../build/hola/hola.egg-info/SOURCES.txt'
+[2.234s] writing manifest file '../../build/hola/hola.egg-info/SOURCES.txt'
+[2.234s] running build
+[2.234s] running build_py
+[2.235s] running install
+[2.235s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.235s]   warnings.warn(
+[2.236s] running install_lib
+[2.236s] creating /home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages/hola
+[2.236s] copying /home/mperezes/ros2_ws/build/hola/build/lib/hola/__init__.py -> /home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages/hola
+[2.236s] byte-compiling /home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages/hola/__init__.py to __init__.cpython-310.pyc
+[2.237s] running install_data
+[2.237s] running install_egg_info
+[2.240s] Copying ../../build/hola/hola.egg-info to /home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages/hola-0.0.0-py3.10.egg-info
+[2.241s] running install_scripts
+[2.269s] writing list of installed files to '/home/mperezes/ros2_ws/build/hola/install.log'
+[2.320s] Invoked command in '/home/mperezes/ros2_ws/src/hola' returned '0': PYTHONPATH=/home/mperezes/ros2_ws/build/hola/prefix_override:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hola build --build-base /home/mperezes/ros2_ws/build/hola/build install --record /home/mperezes/ros2_ws/build/hola/install.log --single-version-externally-managed

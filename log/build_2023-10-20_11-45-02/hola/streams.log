@@ -1,0 +1,20 @@
+[2.438s] Invoking command in '/home/mperezes/ros2_ws/build/hola': PYTHONPATH=/home/mperezes/ros2_ws/build/hola/prefix_override:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mperezes/ros2_ws/build/hola/build --no-deps install_data
+[2.965s] running develop
+[2.965s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.966s]   warnings.warn(
+[2.967s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.967s]   warnings.warn(
+[3.230s] running egg_info
+[3.230s] writing hola.egg-info/PKG-INFO
+[3.231s] writing dependency_links to hola.egg-info/dependency_links.txt
+[3.232s] writing entry points to hola.egg-info/entry_points.txt
+[3.232s] writing requirements to hola.egg-info/requires.txt
+[3.232s] writing top-level names to hola.egg-info/top_level.txt
+[3.235s] reading manifest file 'hola.egg-info/SOURCES.txt'
+[3.236s] writing manifest file 'hola.egg-info/SOURCES.txt'
+[3.238s] running build_ext
+[3.238s] Creating /home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages/hola.egg-link (link to .)
+[3.240s] 
+[3.240s] Installed /home/mperezes/ros2_ws/build/hola
+[3.240s] running install_data
+[3.338s] Invoked command in '/home/mperezes/ros2_ws/build/hola' returned '0': PYTHONPATH=/home/mperezes/ros2_ws/build/hola/prefix_override:/home/mperezes/ros2_ws/install/hola/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mperezes/ros2_ws/build/hola/build --no-deps install_data
